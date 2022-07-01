@@ -1,0 +1,9 @@
+<template>
+  <div>
+    <img
+      src="@/assets/img//Vecino-digital-2022-01-2048x299.png"
+      class="img-fluid"
+      alt="..."
+    />
+  </div>
+</template>
