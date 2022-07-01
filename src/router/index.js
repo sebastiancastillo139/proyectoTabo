@@ -13,6 +13,26 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/MunicipalidadView.vue')
   },
   {
+    path: '/municipalidad/autoridades',
+    name: 'autoridades',
+    component: () => import(/* webpackChunkName: "about" */ '../views/AutoridadesView.vue')
+  },
+  {
+    path: '/municipalidad/direcciones',
+    name: 'direcciones',
+    component: () => import(/* webpackChunkName: "about" */ '../views/DireccionesView.vue')
+  },
+  {
+    path: '/municipalidad/oficinadepartes',
+    name: 'oficinadepartes',
+    component: () => import(/* webpackChunkName: "about" */ '../views/OficinaPartesView.vue')
+  },
+  {
+    path: '/municipalidad/docs',
+    name: 'documentoss',
+    component: () => import(/* webpackChunkName: "about" */ '../views/DocumentosView.vue')
+  },
+  {
     path: '/newsletter',
     name: 'newsletter',
     component: () => import(/* webpackChunkName: "about" */ '../views/NewsletterView.vue')
