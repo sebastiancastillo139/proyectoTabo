@@ -1,8 +1,8 @@
 <template>
-  <div class="home">
-    <h1>PÁGINA DE MUNICIPALIDAD</h1>
-    <h2>VISIÓN</h2>
-    <p>
+  <div class="container justify-content-center col-12">
+    <h1 class="my-3 text-center fs-2">MUNICIPALIDAD DE EL TABO</h1>
+    <h2 class="my-3 fs-3">VISIÓN</h2>
+    <p class="my-3 py-3 fs-5">
       El Tabo es una comuna joven, con hermosos parajes turísticos, con un borde
       costero envidiable, eminentemente cultural, reconocida por su belleza
       natural y patrimonial. El potencial de nuestra zona urbana y rural,
@@ -10,8 +10,11 @@
       ámbito de los servicios y el comercio, generando oportunidades tanto a sus
       vecinos y residentes temporales, sumándonos de esta manera al proyecto y
       objetivo común que compartimos con comunas vecinas como Cartagena y El
-      Quisco. Su desarrollo se sustenta en el aporte y calidad de los servicios
-      públicos que poco a poco hemos incorporado y que atienden los diferentes
+      Quisco.
+    </p>
+    <p class="mb-1 pb-1 fs-5">
+      Su desarrollo se sustenta en el aporte y calidad de los servicios públicos
+      que poco a poco hemos incorporado y que atienden los diferentes
       requerimientos de nuestros ciudadanos. A ello sumamos una educación de
       calidad desde la primera infancia y con ofertas formativas que llegan al
       técnico profesional de nivel medio, un servicio de salud primaria renovado
@@ -20,8 +23,8 @@
       local y los recursos propios que nos ofrece el balneario que denominamos
       como el “Corazón del Litoral de los Poetas”.
     </p>
-    <h2>MISIÓN</h2>
-    <p>
+    <h2 class="my-3 fs-3">MISIÓN</h2>
+    <p class="my-3 py-3 fs-5">
       Nuestra Misión es la promoción y el mejoramiento de la calidad de vida de
       la comunidad tabina y de quienes nos visitan, potenciando el desarrollo
       local a través de una gestión moderna y eficiente, enfocada en el buen
@@ -39,3 +42,9 @@ export default {
   name: "MunicipalidadView",
 };
 </script>
+
+<style scoped>
+p {
+  text-align: justify;
+}
+</style>

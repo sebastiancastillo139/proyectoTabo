@@ -1,5 +1,14 @@
 <template>
   <div class="home">
-    <h1>DIRECCIONES</h1>
+    <DireccionesComp/>
   </div>
 </template>
+
+<script>
+import DireccionesComp from '@/components/DireccionesComp.vue';
+
+export default {
+    components: { DireccionesComp }
+}
+
+</script>

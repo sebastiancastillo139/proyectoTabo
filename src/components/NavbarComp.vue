@@ -17,7 +17,9 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item dropdown nav-link badge border border-white border-3 fs-2 text-white text-wrap mx-1">
+          <li
+            class="nav-item dropdown nav-link badge border border-white border-3 fs-2 text-white text-wrap mx-1"
+          >
             <a
               class="nav-link dropdown-toggle"
               href="#"
@@ -29,26 +31,55 @@
               Municipalidad
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><router-link class="dropdown-item nav-link badge border border-white border-3 fs-4 text-black text-wrap" to="/municipalidad/autoridades">Autoridades 2021-2024</router-link ></li>
-              <li><router-link  class="dropdown-item nav-link badge border border-white border-3 fs-4 text-black text-wrap" to="/municipalidad/direcciones">Contacto Direcciones</router-link ></li>
-              <li><router-link  class="dropdown-item nav-link badge border border-white border-3 fs-4 text-black text-wrap" to="/municipalidad/oficinadepartes">Oficina de Partes</router-link ></li>
-              <li><router-link  class="dropdown-item nav-link badge border border-white border-3 fs-4 text-black text-wrap" to="/municipalidad/docs">Documentos de Interés</router-link ></li>
+              <li>
+                <router-link
+                  class="dropdown-item nav-link badge border border-white border-3 fs-4 text-black text-wrap"
+                  to="/municipalidad/autoridades"
+                  >Autoridades 2021-2024</router-link
+                >
+              </li>
+              <li>
+                <router-link
+                  class="dropdown-item nav-link badge border border-white border-3 fs-4 text-black text-wrap"
+                  to="/municipalidad/direcciones"
+                  >Contacto Direcciones</router-link
+                >
+              </li>
+              <li>
+                <router-link
+                  class="dropdown-item nav-link badge border border-white border-3 fs-4 text-black text-wrap"
+                  to="/municipalidad/oficinadepartes"
+                  >Oficina de Partes</router-link
+                >
+              </li>
+              <li>
+                <router-link
+                  class="dropdown-item nav-link badge border border-white border-3 fs-4 text-black text-wrap"
+                  to="/municipalidad/docs"
+                  >Documentos de Interés</router-link
+                >
+              </li>
             </ul>
           </li>
-          <li class="nav-item nav-link badge border border-white border-3 fs-2 text-white text-wrap mx-1">
-            <router-link
-              class="nav-link"
-              aria-current="page"
-              to="/newsletter"
+          <li
+            class="nav-item nav-link badge border border-white border-3 fs-2 text-white text-wrap mx-1"
+          >
+            <router-link class="nav-link" aria-current="page" to="/newsletter"
               >Noticias</router-link
             >
           </li>
-          <li class="nav-item nav-link badge border border-white border-3 fs-2 text-white text-wrap mx-1">
-            <router-link
-              class="nav-link"
-              aria-current="page"
-              to="/ordenanzas"
+          <li
+            class="nav-item nav-link badge border border-white border-3 fs-2 text-white text-wrap mx-1"
+          >
+            <router-link class="nav-link" aria-current="page" to="/ordenanzas"
               >Ordenanzas</router-link
+            >
+          </li>
+          <li
+            class="nav-item nav-link badge border border-white border-3 fs-2 text-white text-wrap mx-1"
+          >
+            <router-link class="nav-link" aria-current="page" to="/Nosotros"
+              >Nosotros</router-link
             >
           </li>
         </ul>

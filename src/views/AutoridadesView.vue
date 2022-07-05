@@ -1,5 +1,17 @@
 <template>
-  <div class="home">
-    <h1>AUTORIDADES</h1>
+  <div class="home text-center">
+    <AutoridadesComp/>
   </div>
 </template>
+
+
+<script>
+import AutoridadesComp from "@/components/AutoridadesComp.vue";
+
+export default {
+  components:{
+    AutoridadesComp
+  }
+}
+
+</script>
