@@ -2,6 +2,7 @@
   <div>
     <NavbarComp/>
     <router-view />
+    <FooterComp/>
   </div>
 </template>
 
@@ -9,11 +10,13 @@
 
 import NavbarComp from "./components/NavbarComp.vue";
 import { mapActions } from 'vuex';
+import FooterComp from "./components/FooterComp.vue";
 
 export default {
   components:{
-    NavbarComp
-  },
+    NavbarComp,
+    FooterComp
+},
   methods:{
     ...mapActions(['callOnemiData'])
   },

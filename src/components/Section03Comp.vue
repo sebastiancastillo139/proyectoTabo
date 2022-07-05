@@ -1,5 +1,5 @@
 <template>
-    <div class="row row-cols-2 d-flex">
+    <div class="row row-cols-2 d-flex my-3">
         <div class="col-12 col-lg-8">
             <img class="col-12 p-1 py-5 h-auto" src="@/assets/img/becas-municipales-2022_formato_Mesa-de-trabajo-1-copia-2-3.png" alt="">
         </div>

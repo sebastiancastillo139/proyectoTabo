@@ -1,5 +1,5 @@
 <template>
-  <div class="row d-flex py-5">
+  <div class="row d-flex py-5 my-3">
     <div class="col-12 col-xl-3">
       <img class="w-100" src="@/assets/img/tranparencia1.jpg" alt="" />
     </div>
