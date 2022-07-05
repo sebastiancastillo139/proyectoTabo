@@ -1,12 +1,15 @@
 <template>
-  <div class="home">
-    <h1>PÁGINA DE NOTICIAS</h1>
+  <div class="home text-justify">
+    <h1 class="text-center py-4">PÁGINA DE NOTICIAS</h1>
+    <NewsSectionComp/>
   </div>
 </template>
 
 <script>
+import NewsSectionComp from '@/components/NewsSectionComp.vue';
 
 export default {
-  name: 'NewsletterView',
+    name: "NewsletterView",
+    components: { NewsSectionComp }
 }
 </script>
