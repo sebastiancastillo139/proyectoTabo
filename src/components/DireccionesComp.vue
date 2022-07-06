@@ -1,33 +1,33 @@
 <template>
   <div class="col-12">
-    <div class="row col-10 mx-auto my-5">
+    <div class="row col-12 mx-auto my-3">
       <img
         src="@/assets/img/seccion_direcciones/4-1.png"
-        class="img-fluid"
+        class="img-fluid col-11 mx-auto"
         alt="..."
       />
     </div>
     <div class="row col-11 mx-auto">
-      <div class="col-6">
+      <div class="col-12 col-lg-6 d-inline-block">
         <img
           src="@/assets/img/seccion_direcciones/secre.jpeg"
           class="img-fluid"
           alt="..."
         />
       </div>
-      <div class="col-6">
+      <div class="col-12 col-lg-6 d-inline-block">
         <p>Secretario municipal: David Gárate Soto Teléfono: 352 203512</p>
       </div>
     </div>
     <div class="row col-11 mx-auto">
-      <div class="col-6">
+      <div class="col-12 col-lg-6 d-inline-block">
         <img
           src="@/assets/img/seccion_direcciones/iconos-direcciones-11-1536x573.jpg"
           class="img-fluid"
           alt="..."
         />
       </div>
-      <div class="col-6">
+      <div class="col-12 col-lg-6 d-inline-block">
         <p>
           Administrador Municipal (s): Miguel Ángel Herrera Teléfono: 352 203513
           Correo: administradormunicipal@eltabo.cl
@@ -35,14 +35,14 @@
       </div>
     </div>
     <div class="row col-11 mx-auto">
-      <div class="col-6">
+      <div class="col-12 col-lg-6 d-inline-block">
         <img
           src="@/assets/img/seccion_direcciones/secpla.jpeg"
           class="img-fluid"
           alt="..."
         />
       </div>
-      <div class="col-6">
+      <div class="col-12 col-lg-6 d-inline-block">
         <p>
           Directora : Victor Muñoz Durán Teléfono: 352 203534 Correo:
           secretariasecpla@eltabo.cl
@@ -50,14 +50,14 @@
       </div>
     </div>
     <div class="row col-11 mx-auto">
-      <div class="col-6">
+      <div class="col-12 col-lg-6 d-inline-block">
         <img
           src="@/assets/img/seccion_direcciones/dideco.jpeg"
           class="img-fluid"
           alt="..."
         />
       </div>
-      <div class="col-6">
+      <div class="col-12 col-lg-6 d-inline-block">
         <p>
           Director (s): Osvaldo Cartagena Teléfono: 352 203536 Correo:
           dideco@eltabo.cl
@@ -65,14 +65,14 @@
       </div>
     </div>
     <div class="row col-11 mx-auto">
-      <div class="col-6">
+      <div class="col-12 col-lg-6 d-inline-block">
         <img
           src="@/assets/img/seccion_direcciones/juridica.jpeg"
           class="img-fluid"
           alt="..."
         />
       </div>
-      <div class="col-6">
+      <div class="col-12 col-lg-6 d-inline-block">
         <p>
           Director (s) Cristian Nuñez Teléfono: 352 203531 Correo:
           direccionjuridica@eltabo.cl
@@ -80,14 +80,14 @@
       </div>
     </div>
     <div class="row col-11 mx-auto">
-      <div class="col-6">
+      <div class="col-12 col-lg-6 d-inline-block">
         <img
           src="@/assets/img/seccion_direcciones/jpl.jpeg"
           class="img-fluid"
           alt="..."
         />
       </div>
-      <div class="col-6">
+      <div class="col-12 col-lg-6 d-inline-block">
         <p>
           Juez de Policía Local: Luis Eduardo Díaz Aracena. Teléfono: 35203509
           35203561 Correo: juzgadopolicialocal.eltabo@gmail.com
@@ -95,14 +95,14 @@
       </div>
     </div>
     <div class="row col-11 mx-auto">
-      <div class="col-6">
+      <div class="col-12 col-lg-6 d-inline-block">
         <img
           src="@/assets/img/seccion_direcciones/obras.jpeg"
           class="img-fluid"
           alt="..."
         />
       </div>
-      <div class="col-6">
+      <div class="col-12 col-lg-6 d-inline-block">
         <p>
           Directora: Patricia Miranda Teléfono: 352 203508 Correo:
           obras@eltabo.cl
@@ -110,14 +110,14 @@
       </div>
     </div>
     <div class="row col-11 mx-auto">
-      <div class="col-6">
+      <div class="col-12 col-lg-6 d-inline-block">
         <img
           src="@/assets/img/seccion_direcciones/operaciones.jpeg"
           class="img-fluid"
           alt="..."
         />
       </div>
-      <div class="col-6">
+      <div class="col-12 col-lg-6 d-inline-block">
         <p>
           Director (S): Pedro Rodríguez Santis Teléfono: 352 203552 Correo:
           operaciones@eltabo.cl
@@ -125,14 +125,14 @@
       </div>
     </div>
     <div class="row col-11 mx-auto">
-      <div class="col-6">
+      <div class="col-12 col-lg-6 d-inline-block">
         <img
           src="@/assets/img/seccion_direcciones/WhatsApp-Image-2020-07-31-at-18.22.37.jpeg"
           class="img-fluid"
           alt="..."
         />
       </div>
-      <div class="col-6">
+      <div class="col-12 col-lg-6 d-inline-block">
         <p>
           Directora: Amelia Clavijo García Teléfono: 352 203533 Correo:
           aclavijo@eltabo.cl
@@ -140,14 +140,14 @@
       </div>
     </div>
     <div class="row col-11 mx-auto">
-      <div class="col-6">
+      <div class="col-12 col-lg-6 d-inline-block">
         <img
           src="@/assets/img/seccion_direcciones/finanzas.jpeg"
           class="img-fluid"
           alt="..."
         />
       </div>
-      <div class="col-6">
+      <div class="col-12 col-lg-6 d-inline-block">
         <p>
           Director: Mauricio Farias Monroy Teléfono: 352 2035 Correo
           finanzas@eltabo.cl
@@ -155,14 +155,14 @@
       </div>
     </div>
     <div class="row col-11 mx-auto">
-      <div class="col-6">
+      <div class="col-12 col-lg-6 d-inline-block">
         <img
           src="@/assets/img/seccion_direcciones/seguridad.jpeg"
           class="img-fluid"
           alt="..."
         />
       </div>
-      <div class="col-6">
+      <div class="col-12 col-lg-6 d-inline-block">
         <p>
           Director: Pedro Pablo Rodríguez Santis Teléfono: 35 2203562 – +569
           89222867 Correo: seguridad@eltabo.cl
@@ -170,14 +170,14 @@
       </div>
     </div>
     <div class="row col-11 mx-auto">
-      <div class="col-6">
+      <div class="col-12 col-lg-6 d-inline-block">
         <img
           src="@/assets/img/seccion_direcciones/transito.jpeg"
           class="img-fluid"
           alt="..."
         />
       </div>
-      <div class="col-6">
+      <div class="col-12 col-lg-6 d-inline-block">
         <p>
           Directora María Eugenia Ampuero Sánchez Teléfono: 352 203505 Correo:
           transito@eltabo.cl
@@ -185,14 +185,14 @@
       </div>
     </div>
     <div class="row col-11 mx-auto">
-      <div class="col-6">
+      <div class="col-12 col-lg-6 d-inline-block">
         <img
           src="@/assets/img/seccion_direcciones/salud.jpeg"
           class="img-fluid"
           alt="..."
         />
       </div>
-      <div class="col-6">
+      <div class="col-12 col-lg-6 d-inline-block">
         <p>
           Directora: Beatriz Piña Teléfono: 35243711 Correo:
           directora@saludeltabo.cl Dirección de Salud: 44 235 1380 CESFAM El
@@ -202,14 +202,14 @@
       </div>
     </div>
     <div class="row col-11 mx-auto">
-      <div class="col-6">
+      <div class="col-12 col-lg-6 d-inline-block">
         <img
           src="@/assets/img/seccion_direcciones//educacion.jpeg"
           class="img-fluid"
           alt="..."
         />
       </div>
-      <div class="col-6">
+      <div class="col-12 col-lg-6 d-inline-block">
         <p>
           Director: Luis Díaz Soto Correo: daem@eltabo.cl Teléfonos Dirección:
           352 437111 Colegio El Tabo: 352 461602 Escuela Las Cruces: 352 461637
