@@ -1,30 +1,28 @@
 <template>
   <div class="d-flex flex-column min-vh-100">
-    <NavbarComp/>
+    <NavbarComp />
     <router-view />
-    <FooterComp/>
+    <FooterComp />
   </div>
 </template>
 
 <script>
-
 import NavbarComp from "./components/NavbarComp.vue";
-import { mapActions } from 'vuex';
+import { mapActions } from "vuex";
 import FooterComp from "./components/FooterComp.vue";
 
 export default {
-  components:{
+  components: {
     NavbarComp,
-    FooterComp
-},
-  methods:{
-    ...mapActions(['callOnemiData'])
+    FooterComp,
   },
-    beforeMount() {
-    this.callOnemiData();
+  methods: {
+    ...mapActions(["callNewsData"]),
   },
-}
-
+  beforeMount() {
+    this.callNewsData();
+  },
+};
 </script>
 
 <style lang="scss"></style>
