@@ -47,23 +47,11 @@ export default createStore({
     mutatePageNumber(state, data) {
       state.pageNumber = data
     },
-    mutateNewsPerPage(state, data) {
-      let newsData = state.newsData
-      console.log('Esto es newsData' + newsData)
-      console.log('Esto es la data que recive mutateNewsPerPage ' + data)
-      let pageNumber = state.pageNumber
-      let init = ((pageNumber * 6) - 6);
-      let end = (pageNumber * 6);
-      let pagedData = newsData.slice(init, end)
-      console.log('Esto es pagedData ' + pagedData)
-      state.pagedNewsData = pagedData
-    },
   },
   actions: {
     async callNewsData({ commit }) {
       const URL = 'https://newsdata.io/api/1/news?apikey=pub_8928c482d91b860895c5178ac34568858d8b&country=ve'
       const data = await fetch(URL).then(response => response.json())
-      console.log(data)
       commit('mutateNewsData', data.results)
     },
     setNewsPerPage({ commit }) {

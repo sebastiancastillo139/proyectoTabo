@@ -22,17 +22,29 @@
     </div>
     <nav aria-label="Page navigation example" class="fs-2">
       <ul class="pagination">
-        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item" v-if="currentPage != 1">
+          <a
+            class="page-link"
+            v-on:click.stop.prevent="previousPage(currentPage)"
+            >Previa</a
+          >
+        </li>
         <li
           class="page-item"
           v-for="(pages, index) in getTotalPages"
           :key="index"
         >
-          <a class="page-link" href="#" v-on:click.stop.prevent="changePageNumber(pages)">{{
-            pages
-          }}</a>
+          <a
+            class="page-link"
+            v-on:click.stop.prevent="changePageNumber(pages)"
+            >{{ pages }}</a
+          >
         </li>
-        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        <li class="page-item" v-if="currentPage != getTotalPages">
+          <a class="page-link" v-on:click.stop.prevent="nextPage(currentPage)"
+            >Siguiente</a
+          >
+        </li>
       </ul>
     </nav>
   </div>
@@ -46,13 +58,31 @@ export default {
     return {
       init: 0,
       end: 6,
+      currentPage: 1,
     };
   },
   methods: {
     changePageNumber(number) {
       console.log(number);
-      this.init = (number * 6) - 6;
-      this.end = (number * 6);
+      console.log(this.currentPage);
+      this.currentPage = number;
+      this.init = number * 6 - 6;
+      this.end = number * 6;
+    },
+    previousPage(currentPage) {
+      console.log(currentPage);
+      let prevPage = currentPage - 1;
+      this.currentPage = prevPage;
+      this.init = prevPage * 6 - 6;
+      this.end = prevPage * 6;
+    },
+    nextPage(currentPage) {
+      console.log(currentPage);
+      let prevPage = currentPage + 1;
+      console.log(prevPage)
+      this.currentPage = prevPage;
+      this.init = prevPage * 6 - 6;
+      this.end = prevPage * 6;
     },
   },
   computed: {
