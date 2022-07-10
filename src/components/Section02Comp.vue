@@ -1,7 +1,7 @@
 <template>
   <div
     id="carouselExampleControls"
-    class="carousel slide my-3"
+    class="carousel slide my-3 col-12 col-xl-10 mx-auto"
     data-bs-ride="carousel"
   >
     <div class="carousel-inner overflow-hidden">

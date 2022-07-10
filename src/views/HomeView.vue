@@ -1,26 +1,12 @@
 <template>
-  <div class="container">
-    <div class="row">
-      <Section01Comp />
-    </div>
-    <div class="row">
-      <Section02Comp />
-    </div>
-    <div class="row">
-      <Section03Comp />
-    </div>
-    <div class="row">
-      <Section04Comp />
-    </div>
-    <div class="row">
-      <Section05Comp />
-    </div>
-    <div class="row">
-      <Section06Comp />
-    </div>
-    <div class="row">
-      <Section07Comp />
-    </div>
+  <div class="col-12">
+    <Section01Comp />
+    <Section02Comp />
+    <Section03Comp />
+    <Section04Comp />
+    <Section05Comp />
+    <Section06Comp />
+    <Section07Comp />
   </div>
 </template>
 

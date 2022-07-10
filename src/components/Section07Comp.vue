@@ -1,5 +1,5 @@
 <template>
-  <div class="row my-3">
+  <div class="row col-12 mx-auto my-3">
     <div class="col-12 col-lg-8">
         <img src="@/assets/img/Siguenos-en-nuestras-redes-sociales-1.png" class="img-fluid" alt="...">
     </div>
